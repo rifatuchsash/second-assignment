@@ -185,3 +185,91 @@ body, html {
       margin: 0 auto;
     }
   }
+
+  /* curriculum section */
+  /* body {
+    background-image: url('assets/bg.png');
+    background-size:auto;
+    /* background-position: center; */
+
+  
+    .standard-curriculum {
+        text-align: center;
+        padding: 50px 20px;
+      }
+      
+      .standard-curriculum h2 {
+        font-size: 2rem;
+        margin-bottom: 50px;
+      }
+      
+      .cards-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+      
+      .card {
+        width: 200px;
+        border-radius: 12px;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      .card img {
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+        margin-bottom: 15px;
+      }
+      
+      .card h3 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+      }
+      
+      .card p {
+        font-size: 0.9rem;
+        color: #555;
+        margin-bottom: 15px;
+      }
+      
+      .card a {
+        text-decoration: none;
+        /* color: #2067af; */
+        font-weight: bold;
+      }
+      
+      .arrow-buttons {
+        margin-top: 50px;
+      }
+      
+      .arrow-buttons button {
+        border: none;
+        background-color: #FFA500;
+        color: white;
+        font-size: 1.8rem;
+        padding: 10px 20px;
+        border-radius: 80%;
+        cursor: pointer;
+      }
+      
+      .arrow-buttons button:hover {
+        background-color: #FF7700;
+      }
+      
+      @media (max-width: 576px) {
+        .cards-container {
+          flex-direction: column;
+          align-items: center;
+        }
+      
+        .card {
+          width: 90%;
+        }
+        .standard-curriculum .arrow-buttons {
+          display: none;
+      }
+      }
+    
