@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  .quicksand-font{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo-site {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+  }
+  
+  .site-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    /* color:orange skyblue palegreen blueviolet; */
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  #Home{
+    color: orange;
+  }
+  #About{
+    color: aqua;
+  }
+  #facilities{
+    color: skyblue;
+  }
+  #admission{
+    color: blueviolet;
+  }
+  
+  /* .nav-links a:hover {
+    color: orange;
+  } */
+  
+  .contact-btn {
+    padding: 8px 16px;
+    background-color:orange;
+    color: rgb(248, 244, 236);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-btn:hover {
+    background-color: lightskyblue;
+  }
+  
+  .menu-btn {
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 576px) {
+    .nav-links,
+    .contact-btn {
+      display: none;
+    }
+  
+    .menu-btn {
+      display: block;
+    }
+  }
